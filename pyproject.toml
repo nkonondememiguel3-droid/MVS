@@ -4,4 +4,9 @@ version = "0.1.0"
 description = "This project is a reattempt to implement a multi-speaker voice recognizer. The first attempt failed but I learn some stuff that I think are going to help on this new attempt. MAY GOD HELP ME THIS ONE."
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "librosa>=0.11.0",
+    "matplotlib>=3.11.0",
+    "pandas>=3.0.3",
+    "tensorflow-cpu>=2.21.0",
+]
